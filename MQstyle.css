@@ -1,0 +1,36 @@
+@media (max-width:600px) {
+  .card{
+    max-width:96vw;
+    padding: 40px 10px;
+    margin: 50px auto 0;
+  }
+  .search{
+    width: 84vw;
+  }
+  .search input{
+      flex: none;
+      width: 70vw;
+      margin-right: 5px;
+  }
+  .search button{
+      width: 55px;
+      height: 55px;
+  }
+  .search button img{
+      width: 15px;
+  }
+  .details{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      margin-top: 50px;
+  }
+  .humidity, .wind{
+      font-size: 18px;
+      margin-top: -6px;
+  }
+  .error{
+      font-size: 15px;
+  }
+}
